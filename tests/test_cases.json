@@ -1,0 +1,52 @@
+[
+  {
+    "query": "What should I do if I see suspicious activity on my account?",
+    "in_scope": true,
+    "expected_keywords": ["suspicious", "activity", "report", "contact"]
+  },
+  {
+    "query": "How do I report an unauthorized charge?",
+    "in_scope": true,
+    "expected_keywords": ["unauthorized", "charge", "billing", "report"]
+  },
+  {
+    "query": "What happens if someone logs into my account from a different country?",
+    "in_scope": true,
+    "expected_keywords": ["login", "different", "country", "location"]
+  },
+  {
+    "query": "How can I see all devices that have accessed my account?",
+    "in_scope": true,
+    "expected_keywords": ["devices", "accessed", "account", "view"]
+  },
+  {
+    "query": "What should I do if I don't recognize a charge on my bill?",
+    "in_scope": true,
+    "expected_keywords": ["charge", "bill", "recognize", "report"]
+  },
+  {
+    "query": "Tell me about the latest movies on your platform",
+    "in_scope": false,
+    "expected_keywords": []
+  },
+  {
+    "query": "How do I set up a new device?",
+    "in_scope": false,
+    "expected_keywords": []
+  },
+  {
+    "query": "What's the password for my account?",
+    "in_scope": false,
+    "expected_keywords": []
+  },
+  {
+    "query": "Can you recommend some shows based on my viewing history?",
+    "in_scope": false,
+    "expected_keywords": []
+  },
+  {
+    "query": "How do I upgrade my subscription to premium?",
+    "in_scope": true,
+    "expected_keywords": ["subscription", "upgrade", "premium", "billing"]
+  }
+]
