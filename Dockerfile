@@ -20,5 +20,4 @@ ENV PYTHONPATH=/app
 # Expose the port
 EXPOSE 8080
 
-# Run the application
-CMD gunicorn --bind 0.0.0.0:$PORT --workers 2 --threads 8 app.app:create_app()
+CMD python main.py webapp --port $PORT
